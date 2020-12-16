@@ -18,7 +18,3 @@ public class AlbumPhotosAdapter : NSObject, UICollectionViewDataSource, UICollec
     }
     
 }
-
-protocol PhotoClickListner: class {
-    func onPhotoClicked(photo : Photo)
-}
